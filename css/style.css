@@ -1,0 +1,116 @@
+/* ============================================
+   style.css — NÃO É PRECISO MEXER NESTE FICHEIRO
+   O estilo do projeto já está pronto.
+   ============================================ */
+
+:root {
+  --fundo: #f6f7fb;
+  --tinta: #20242a;
+  --acento: #2563eb;
+  --cartao: #ffffff;
+  --linha: #d8dee8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--fundo);
+  color: var(--tinta);
+  line-height: 1.6;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header {
+  border-bottom: 3px solid var(--acento);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 0;
+}
+
+.titulo-principal {
+  margin-bottom: 4px;
+}
+
+.lema {
+  color: var(--acento);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+nav {
+  margin-bottom: 24px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.menu li a {
+  display: inline-block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--tinta);
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+
+.menu li a:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+.cartao {
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: var(--acento);
+}
+
+ul.top3 {
+  margin: 8px 0 0 20px;
+}
+
+.texto-destaque {
+  font-weight: bold;
+}
+
+.link-voltar {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--acento);
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.85rem;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 1px solid var(--linha);
+  padding-top: 12px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #667085;
+}
