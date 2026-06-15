@@ -1,0 +1,7 @@
+rascunhos/
+*.tmp
+Thumbs.db
+.DS_Store
+.env
+*.log
+*.py
