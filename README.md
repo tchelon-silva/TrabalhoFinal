@@ -9,9 +9,7 @@
 
 O site pode ser visto online em:
 
-[https://SEU-UTILIZADOR.github.io/projeto617/](https://SEU-UTILIZADOR.github.io/projeto617/)
-
-*(substituir pelo link real do GitHub Pages do repositório)*
+https://tchelon-silva.github.io/TrabalhoFinal/
 
 ## 3. Descrição
 
