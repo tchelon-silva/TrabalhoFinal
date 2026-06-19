@@ -1,42 +1,18 @@
+
 # projeto617
 
-Projeto de grupo da UC00617 - Git e GitHub.
+## 1. Título
 
-Cada equipa constrói um pequeno projeto web com uma página inicial e uma página pessoal por membro.
+**projeto617**
 
-## Estrutura inicial
+## 2. Projeto publicado
 
-```text
-projeto617/
-├── index.html        → página inicial com estrutura básica
-├── modelo.html       → template HTML5 para criar novas páginas
-├── css/style.css     → estilo fornecido pelo formador
-├── enunciado.md      → enunciado geral do trabalho
-├── tarefas/          → guias de trabalho
-├── .gitignore        → ficheiros ignorados pelo Git
-└── README.md         → este ficheiro
-```
+O site pode ser visto online em:
 
-## Guias de trabalho
+[https://SEU-UTILIZADOR.github.io/projeto617/](https://SEU-UTILIZADOR.github.io/projeto617/)
 
-```text
-tarefas/
-├── setup.md          → criação do repositório e clone
-├── pagina-pessoal.md → página pessoal de cada formando
-├── index.md          → construção conjunta do index.html
-└── readme-final.md   → atualização final do README
-```
+*(substituir pelo link real do GitHub Pages do repositório)*
 
-## Rotina da equipa
+## 3. Descrição
 
-1. Antes de criar um branch novo: atualizar o `main` com `git pull`
-2. Antes de cada commit: rever alterações com `git status` e `git diff`
-3. Antes de abrir Pull Request: testar o projeto no browser
-4. Usar mensagens de commit claras, em português
-5. No GitHub: **ninguém faz merge do seu próprio Pull Request**
-
-## Carga de trabalho
-
-- Cada página pessoal deve ter pelo menos 8 commits.
-- O `index.html` é construído em sessões, com Pull Requests pequenos.
-- O README final também é atualizado em várias etapas.
+Este é um projeto de grupo da UC00617. Consiste num pequeno site em HTML, desenvolvido com o objetivo principal de praticar Git e GitHub: criação de branches, commits, abertura e revisão de Pull Requests, e resolução de conflitos.
